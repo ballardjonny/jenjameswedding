@@ -1,0 +1,116 @@
+// Header
+
+$purple: #AAA5B3;
+$darkpurple: #484252;
+$pastelgreen: #D3D6C8;
+$white: #fff;
+$orangebrown: #D4A183;
+
+html, body {
+  height: 100%;
+}
+
+.hero-full-height {
+  display:table;
+  height:100%;
+  width:100%;
+  margin:auto;
+  .inner {
+    display:table-cell;
+    vertical-align:middle;
+    padding: 15px;
+    width:100%;
+    max-width:none;
+  }
+}
+
+.vertical-line {
+  position: relative;
+  left: 50%;
+}
+
+.horizontal-line {
+  border-bottom: 2px solid #fff;
+  width: 34px;
+  margin: 30px auto 30px auto;
+}
+
+.vertical-line-hero {
+  @extend .vertical-line;
+  border-left: 2px solid #9B9B9B;
+  height: 34px;
+  margin: 50px 0 45px 0;
+  bottom: 0;
+}
+
+.vertical-line-section-w {
+  @extend .vertical-line;
+  border-left: 2px solid #fff;
+  height: 34px;
+  margin: 0 0 45px 0;
+  top: 0;
+}
+
+.vertical-line-section-b {
+  @extend .vertical-line;
+  border-left: 2px solid #9B9B9B;
+  height: 34px;
+  margin: 0 0 45px 0;
+  top: 0;
+}
+
+#hero {
+  background-color: $purple;
+  background: url("/img/wreathfinal.png") no-repeat center;
+  background-size: cover;
+  border-bottom: 1px solid #efefef;
+}
+
+#introduction {
+  padding: 4em 0 4em 0;
+}
+
+#destination {
+  background-color: $pastelgreen;
+  padding: 4em 0 4em 0;
+}
+
+#wheretostay {
+  background-color: $purple;
+  padding: 4em 0 4em 0;
+}
+
+#travel {
+  padding: 4em 0 4em 0;
+}
+
+#wedding {
+  background-color: $orangebrown;
+  padding: 4em 0 4em 0;
+}
+
+#weddingparty {
+  background-color: $white;
+  padding: 4em 0 4em 0;
+}
+
+#RSVP {
+  background: url(/img/rsvpbg.png) no-repeat center;
+  background-size: cover;
+}
+.RSVP-box {
+  max-width: 600px;
+  padding: 3em;
+  background-color: $white;
+  margin: 15px;
+  margin: auto;
+}
+
+#FAQ {
+  padding: 4em 0 4em 0;
+}
+
+#prefooter {
+  background-color: $darkpurple;
+  padding: 4em 0 4em 0;
+}
