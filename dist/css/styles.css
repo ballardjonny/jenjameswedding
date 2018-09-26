@@ -1568,7 +1568,7 @@ html, body {
 
 #hero {
   background-color: #AAA5B3;
-  background: url("/img/wreathfinal.png") no-repeat center;
+  background: url("/img/.png") no-repeat center;
   background-size: cover;
   border-bottom: 1px solid #efefef; }
 
