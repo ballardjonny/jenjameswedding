@@ -1,6 +1,6 @@
 // Header
 
-$purple: #AAA5B3;
+$purple: #ead8d2;
 $darkpurple: #484252;
 $pastelgreen: #D3D6C8;
 $white: #fff;
@@ -61,7 +61,6 @@ html, body {
 
 #hero {
   background-color: $purple;
-  background: url("/img/.png") no-repeat center;
   background-size: cover;
   border-bottom: 1px solid #efefef;
 }
@@ -71,12 +70,12 @@ html, body {
 }
 
 #destination {
-  background-color: $pastelgreen;
+  background-color: #c7ced0;
   padding: 4em 0 4em 0;
 }
 
 #wheretostay {
-  background-color: $purple;
+  background-color: #D3D6C8;
   padding: 4em 0 4em 0;
 }
 
@@ -95,8 +94,10 @@ html, body {
 }
 
 #RSVP {
-  background: url(/img/rsvpbg.png) no-repeat center;
+  //background: url(/img/rsvpbg.png) no-repeat center;
+  background-color: #ead8d2;
   background-size: cover;
+  padding: 3em 0;
 }
 .RSVP-box {
   max-width: 600px;
@@ -113,4 +114,14 @@ html, body {
 #prefooter {
   background-color: $darkpurple;
   padding: 4em 0 4em 0;
+}
+
+.button-secondary {
+  display: inline-block;
+  padding:8px;
+  margin: 4px 2px;
+}
+
+.fs-1 {
+  font-size: 48px;
 }

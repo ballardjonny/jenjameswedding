@@ -1567,8 +1567,7 @@ html, body {
   top: 0; }
 
 #hero {
-  background-color: #AAA5B3;
-  background: url("/img/.png") no-repeat center;
+  background-color: #ead8d2;
   background-size: cover;
   border-bottom: 1px solid #efefef; }
 
@@ -1576,11 +1575,11 @@ html, body {
   padding: 4em 0 4em 0; }
 
 #destination {
-  background-color: #D3D6C8;
+  background-color: #c7ced0;
   padding: 4em 0 4em 0; }
 
 #wheretostay {
-  background-color: #AAA5B3;
+  background-color: #D3D6C8;
   padding: 4em 0 4em 0; }
 
 #travel {
@@ -1595,8 +1594,9 @@ html, body {
   padding: 4em 0 4em 0; }
 
 #RSVP {
-  background: url(/img/rsvpbg.png) no-repeat center;
-  background-size: cover; }
+  background-color: #ead8d2;
+  background-size: cover;
+  padding: 3em 0; }
 
 .RSVP-box {
   max-width: 600px;
@@ -1611,6 +1611,14 @@ html, body {
 #prefooter {
   background-color: #484252;
   padding: 4em 0 4em 0; }
+
+.button-secondary {
+  display: inline-block;
+  padding: 8px;
+  margin: 4px 2px; }
+
+.fs-1 {
+  font-size: 48px; }
 
 .no-margin {
   margin: 0; }
